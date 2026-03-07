@@ -3,7 +3,7 @@ cask "claude-statusline" do
   name "claude-statusline"
   desc "Statusline for Claude Code terminal integration"
   homepage "https://github.com/h2ik/claude-statusline"
-  version "1.2.0"
+  version "1.2.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "claude-statusline" do
   on_macos do
     on_intel do
       url "https://github.com/h2ik/claude-statusline/releases/download/v#{version}/claude-statusline_#{version}_darwin_amd64.tar.gz"
-      sha256 "48b33a8bd60519860b28a23ab68a405b659304952924338c5ee763b6e8d220d8"
+      sha256 "34f35abdea8b15d1d4ef9d0d501c233b851b31b4c9b4afb2787f979e29bc2f8a"
     end
     on_arm do
       url "https://github.com/h2ik/claude-statusline/releases/download/v#{version}/claude-statusline_#{version}_darwin_arm64.tar.gz"
-      sha256 "17620e2ba094c8f0324187a09d508f952f0db141000e888d1b42885fb837de66"
+      sha256 "cc73ca9191949f63d8c0ed513adedcd80f7f1ee2b9e892a38877792df1b4e793"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/h2ik/claude-statusline/releases/download/v#{version}/claude-statusline_#{version}_linux_amd64.tar.gz"
-      sha256 "64c226fad9120ffc9ba832c2d40dbcbad66b608b71704289e585425c2b22fd3b"
+      sha256 "5d02ca6e4a2c35b695add74623244ede952028a784ea812538357446c5caeda4"
     end
     on_arm do
       url "https://github.com/h2ik/claude-statusline/releases/download/v#{version}/claude-statusline_#{version}_linux_arm64.tar.gz"
-      sha256 "4dd3f43d3be1d6a039f5a49956d61bcda523c25cd99e17908e9c2701097a4e3e"
+      sha256 "7543147165c418616a0f01879c3327d954e301174ee1a7595adbb2b7abc9f4d9"
     end
   end
 
